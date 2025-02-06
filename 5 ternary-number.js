@@ -10,3 +10,15 @@ write a simple if-else.
 also, write it using ternary operator.
 
  */
+
+const num1 = 30;
+const num2 = 20;
+const result1 = num1 >= num2 ? num1 * num1 : num1 + num2;
+let result2;
+if (num1 >= num2) {
+  result2 = num1 * num1;
+} else {
+  result2 = num1 + num2;
+}
+console.log(result1);
+console.log(result2);
